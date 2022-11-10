@@ -1,12 +1,13 @@
-.style{
+.style {
     font-size: 15px;
-    width:100%;
+    width: 100%;
     flex: 0 1 45%;
     border-color: blueviolet;
     padding: 20px;
-    justify-items : stretch;
+    justify-items: stretch;
 }
-.container{
+
+.container {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     box-sizing: border-box;
@@ -18,23 +19,24 @@
     /* Размещаем контейнеры по центру */
     place-items: center;
     display: grid;
-    grid-template-columns: repeat(2,minmax(0,1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     grid-template-rows: 200px 200px;
-    -moz-column-gap:  50px;
-         column-gap:  50px;
+    -moz-column-gap: 50px;
+         column-gap: 50px;
     gap: 20px;
 }
-body{
-    font-family: 'Nunito';
+
+body {
+    font-family: 'Nunito', serif;
     background-color: gray;
 }
-a{
+
+a {
     font-size: 27px;
     font-weight: 600;
 }
-html{
+
+html {
     line-height: 1.5;
 }
-img {
-    width:50%;
-}
+

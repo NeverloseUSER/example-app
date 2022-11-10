@@ -9,15 +9,15 @@ class HomeController extends Controller
 {
     public function index(): View
     {
-        return view('home', [
+        return view('home',  [
             'nameone' => 'Фильм первый',
-            'descriptionone' => 'Описание Первое',
+            'descriptionone' => 'Описание Первого Фильма',
             'nametwo' => 'Фильм второй',
-            'descriptiontwo' => 'Описание Второе',
+            'descriptiontwo' => 'Описание Второго Фильма',
             'namethree' => 'Фильм третий',
-            'descriptionthree' => 'Описание Третье',
+            'descriptionthree' => 'Описание Третьего Фильма',
             'namefour' => 'Фильм четвертый',
-            'descriptionfour' => 'Описание Четвертое'
+            'descriptionfour' => 'Описание Четвертого Фильма'
         ]);
     }
 }
