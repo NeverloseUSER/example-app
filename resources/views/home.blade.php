@@ -12,33 +12,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body class="antialiased">
-<img src="{{asset('image/pumpkin.webp')}}">
+<img src="{{asset('image/pumpkin.webp')}}" alt="">
 <a>Картинка- </a>
 <div class="container">
 
-<div class="style" >
-    <a href="" class="underline">
-        {{ $nameone }}
-    </a>
-<br>{{ $descriptionone }}
-</div>
+    <div class="style">
+        <a href="" class="underline">
+            {{ $nameone }}
+        </a>
+        <br>{{ $descriptionone }}
+    </div>
     <div class="style">
         <a href="" class="underline">
             {{ $nametwo }}
         </a>
-<br>{{ $descriptiontwo }}
+        <br>{{ $descriptiontwo }}
     </div>
     <div class="style">
         <a href="" class="underline">
             {{ $namethree}}
         </a>
-<br> {{ $descriptionthree }}
+        <br> {{ $descriptionthree }}
     </div>
     <div class="style">
         <a href="" class="underline">
             {{ $namefour }}
         </a>
-<br>{{ $descriptionfour }}
+        <br>{{ $descriptionfour }}
     </div>
 </div>
 </body>
