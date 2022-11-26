@@ -36,6 +36,7 @@ Route::get('/home',  [ArticleController::class, 'index']);
 Route::get('/home',  [HomeController::class, 'index']);
 
 
+
 Route::get('/home', function ()
     {
     dd(Articles::query()
@@ -53,3 +54,4 @@ Route::get('articles/create', [ArticleController::class, 'create'])->name('artic
 Route::get('articles/{article}/edit', [ArticleController::class, 'edit'])->name('articles.edit');
 Route::put('articles/{article}', [ArticleController::class, 'update'])->name('articles.update');
 Route::delete('articles/{article}', [ArticleController::class, 'destroy'])->name('articles.destroy');
+Route::get('/home',  [HomeController::class, 'index']);
