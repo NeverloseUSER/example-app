@@ -9,7 +9,7 @@ class HomeController extends Controller
 {
     public function index(): View
     {
-        return view('home',  [
+        return view('home', [
             'nameone' => 'Фильм первый',
             'descriptionone' => 'Описание Первого Фильма',
             'nametwo' => 'Фильм второй',

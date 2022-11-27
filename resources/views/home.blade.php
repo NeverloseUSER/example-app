@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body class="antialiased">
-<img  src="{{asset('image/pumpkin.webp')}}" width="300" height="200"  style="margin-left: 10em" alt="">
+<img src="{{asset('image/pumpkin.webp')}}" width="300" height="200" style="margin-left: 10em" alt="">
 <div class="container">
 
     <div class="style">

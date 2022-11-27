@@ -38,16 +38,17 @@
                 </div>
             </div>
 
-<div class="col-xs-12 col-sm-12 col-md-12">
-<div class="form-group">
-<strong>Price:</strong>
-<input type="text" name="price" class="form-control" placeholder="Price" value="{{$article->price}}">
-</div>
-</div>
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="form-group">
+                    <strong>Price:</strong>
+                    <input type="text" name="price" class="form-control" placeholder="Price"
+                           value="{{$article->price}}">
+                </div>
+            </div>
 
-<div class="col-xs-12 col-sm-12 col-md-12 text-center">
-<button type="submit" class="btn btn-primary">Submit</button>
-</div>
-</div>
-</form>
+            <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </form>
 @endsection

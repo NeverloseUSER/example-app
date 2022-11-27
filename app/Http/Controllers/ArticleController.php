@@ -11,11 +11,11 @@ use Illuminate\View\View;
 
 class ArticleController extends Controller
 {
-public  function index():View
+    public function index(): View
     {
-    $articles = Article::all();
+        $articles = Article::all();
 
-    return view('articles.index', compact('articles'));
+        return view('articles.index', compact('articles'));
     }
 
 
@@ -33,13 +33,11 @@ public  function index():View
     }
 
 
-
-
-
     public function edit(Article $article): View
     {
         return view('articles.edit', compact('article'));
     }
+
     public function update(Request $request, Article $article): RedirectResponse
     {
         $article->update($request->all());
@@ -51,9 +49,6 @@ public  function index():View
         $article->delete();
         return redirect()->route('articles.index')->with('success', 'Articles deleted successfully');
     }
-
-
-
 
 
 }
