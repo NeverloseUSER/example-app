@@ -29,7 +29,6 @@ class ArticleController extends Controller
         Article::create($request->all());
 
         return redirect()->route('articles.index')->with('success', 'Article created successfully');
-//        return view('')->with('', $gdg);
     }
 
 
